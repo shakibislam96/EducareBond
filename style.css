@@ -1,0 +1,88 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #0a6f88; /* Pure Black Background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Card Container */
+.card-container {
+    background: #121212; /* Sleek Dark Gray Card */
+    max-width: 500px;
+    width: 100%;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid #222222; /* Subtle border to define the card edge */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Header Styles */
+.form-header h1 {
+    color: #b72a2a; /* White Text */
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.form-header p {
+    color: #b734c8; /* Soft Gray Text for readability */
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Button / Link Styles */
+.action-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #d417cb; /* Vibrant Blue/Purple Button */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 12px rgba(76, 81, 191, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #28e1a0; /* Brighter on hover */
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+.btn-note {
+    font-size: 12px;
+    color: #c930b2;
+}
+
+/* Footer Styles */
+.form-footer {
+    margin-top: 40px;
+    border-top: 1px solid #2d3748;
+    padding-top: 15px;
+}
+
+.form-footer p {
+    font-size: 12px;
+    color: #4a5568;
+}
